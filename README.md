@@ -1,2 +1,5 @@
 # Lag-Compensation
-Simple Lag-Compensation System Unreal Engine
+Simple Lag-Compensation System
+
+This system records pelvis bone's location and server world time every tick and compares this data with the player's hit data.
+You can improve that, if you add record all the bones of your skeleton and check it in the CheckHit funcion.
